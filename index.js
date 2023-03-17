@@ -13,7 +13,7 @@ connectDB();
 app.set('port', process.env.PORT || 3000);
 
 // Routes
-app.use('/movies',movies);
+app.use('/api/movies',movies);
 
 // Satarting server
 app.listen(app.get('port'), () => {
